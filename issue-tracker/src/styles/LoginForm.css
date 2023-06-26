@@ -1,0 +1,83 @@
+
+
+.login-form {
+    max-width: 400px;
+    width:30em;
+    height: 35em;
+    border-radius: 1em;
+    box-shadow:0 0.188em 1.550em rgb(100,156,156);
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display:flex;
+    flex-direction:column;
+    background-color: #f8f8f8;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.alt-login {
+    width:80%;
+    height:3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-login div{
+    width:45%;
+    height:90%;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    border-radius: 0.25em;
+}
+
+
+input{
+    border:none;
+    background-color: rgb(229, 226,226);
+    height: 4em;
+    width:70%;
+    border-radius: 0.25em;
+    text-align:center;
+    padding:2em;
+}
+
+.form-group{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.form-group label{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color:#0056b3
+}
+
+
+.login-form button[type="submit"] {
+    width: 40%;
+    height:3em;
+    background-color: rgb(32,177,255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.5s;
+    border-radius: 0.25em;
+    cursor:pointer
+}
+
+.login-form button[type="submit"]:hover {
+    bottom:-2em;
+    transform:scale(1.2);
+}
